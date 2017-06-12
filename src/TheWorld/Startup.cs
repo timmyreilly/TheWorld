@@ -27,11 +27,9 @@ namespace TheWorld
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseDefaultFiles();
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            app.UseStaticFiles();
         }
     }
 }
