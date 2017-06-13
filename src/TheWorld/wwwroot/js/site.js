@@ -14,6 +14,8 @@
     //    main.style.backgroundColor = ""
     //};
 
+    
+
     var $sidebarAndWrapper = $("#sidebar, #wrapper");
 
     $("#sidebarToggle").on("click", function () {
